@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="studentsDetails" path="/api/studentsDetails" id="93d8e61a-e780-4bac-b0bb-7535b9299b8a" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="93d8e61a-e780-4bac-b0bb-7535b9299b8afileName">studentsDetails</con:setting></con:settings><con:parameters/><con:method name="Method 1" id="f76fc14a-b079-448e-af82-cfc3aefbabfa" method="POST"><con:settings/><con:parameters/><con:request name="Request 1" id="9a55a4ea-3725-4d75-b14f-981d6f49b2f8" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>https://thetestingworldapi.com</con:endpoint><con:request>{
+  "first_name": "Test",
+  "middle_name": "1",
+  "last_name": "Data",
+  "date_of_birth": "10Aug"
+}</con:request><con:originalUri>https://thetestingworldapi.com/api/studentsDetails</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource>
